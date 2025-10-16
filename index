@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>《用户研究：从入门到精通》读者服务</title>
+    
+    <!-- SEO & Social Sharing Meta Tags -->
+    <meta name="description" content="一本系统性、全方位介绍用户研究的实战指南。附赠全套模板，助你从入门到精通。">
+    <meta name="author" content="蒋昌盛 (Kaysen Jiang)">
+    <meta property="og:title" content="《用户研究：从入门到精通》官方网站">
+    <meta property="og:description" content="洞察人心的艺术与科学，一本写给探索者的行动手册。">
+    <meta property="og:image" content="https://raw.githubusercontent.com/jiangchangsheng2022/book.jiangchangsheng.com/main/%E4%B9%A6%E7%B1%8D%E5%B0%81%E9%9D%A2%20.png">
+    <meta property="og:url" content="https://book.jiangchangsheng.com">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- Favicon -->
+    <link rel="icon" href="https://raw.githubusercontent.com/jiangchangsheng2022/book.jiangchangsheng.com/main/%E4%B9%A6%E7%B1%8D%E5%B0%81%E9%9D%A2%20.png" type="image/png">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700;900&family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --brand-color: #0ea5e9; /* sky-500 */
+            --bg-soft: #f8fafc; /* slate-50 */
+            --text-main: #1e293b; /* slate-800 */
+            --text-light: #64748b; /* slate-500 */
+        }
+
+        body {
+            font-family: 'Inter', 'Noto Sans SC', sans-serif;
+            background-color: var(--bg-soft);
+            color: var(--text-main);
+        }
+        .section-title {
+            @apply text-3xl md:text-4xl font-black text-slate-800 text-center mb-4;
+        }
+        .section-subtitle {
+            @apply text-lg text-slate-500 text-center max-w-3xl mx-auto mb-16;
+        }
+        
+        /* Horizontal scrolling animation */
+        @keyframes scroll-x {
+            from { transform: translateX(0); }
+            to { transform: translateX(-50%); }
+        }
+        .animate-scroll-x {
+            animation: scroll-x 60s linear infinite;
+        }
+        .scroll-container {
+            -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+            mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- 导航栏 -->
+    <header class="bg-white/80 backdrop-blur-lg shadow-sm sticky top-0 z-50 transition-all duration-300">
+        <nav class="container mx-auto px-6 py-4 flex justify-center items-center">
+            <h1 class="text-lg md:text-xl font-black text-slate-800">《用户研究：从入门到精通》读者服务</h1>
+        </nav>
+    </header>
+
+    <main>
+        <!-- 首页区域 - Hero Section -->
+        <section id="home" class="py-24 md:py-32 bg-slate-50">
+            <div class="container mx-auto px-6 text-center">
+                <div class="max-w-4xl mx-auto">
+                    <img src="https://raw.githubusercontent.com/jiangchangsheng2022/book.jiangchangsheng.com/main/%E4%B9%A6%E7%B1%8D%E5%B0%81%E9%9D%A2%20.png" 
+                         alt="书籍封面" 
+                         class="mx-auto mb-10 rounded-lg shadow-2xl transform hover:scale-105 transition-transform duration-300 w-52 md:w-64">
+                    
+                    <h1 class="text-4xl md:text-6xl font-black text-slate-900 leading-tight mb-4">
+                        《用户研究：从入门到精通》
+                    </h1>
+                    <p class="text-lg md:text-xl text-slate-500 mb-2">User Research: From Beginner to Proficient</p>
+                    <p class="text-xl font-bold text-sky-600 mb-8">蒋昌盛 (Kaysen Jiang) 著</p>
+                    <p class="max-w-3xl mx-auto text-lg text-slate-600 leading-relaxed italic mb-12">
+                        "一本系统性、全方位介绍用户研究的实战指南。它并非仅为专业研究者而写，更是每一位渴望洞察人性、理解需求、创造卓越产品与服务的探索者的行动手册。"
+                    </p>
+                    <div class="flex justify-center items-center">
+                        <a href="#author-service" class="bg-sky-500 hover:bg-sky-600 text-white font-bold py-4 px-10 rounded-full shadow-lg transform hover:scale-105 transition-all duration-300 text-lg">
+                            数字资源下载
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 本书特色区域 (Horizontal Scroll) -->
+        <section id="features" class="py-24 bg-white overflow-hidden">
+            <div class="container mx-auto">
+                <h2 class="section-title">你将在这本书中获得什么？</h2>
+                <p class="section-subtitle px-6">
+                    从理论到实践，从入门到精通，本书将为你构建一套完整的用户研究知识体系与实战能力。
+                </p>
+                <div class="scroll-container">
+                    <div class="flex animate-scroll-x hover:[animation-play-state:paused]">
+                        <div class="flex-shrink-0 flex space-x-8 pr-8">
+                            <div class="bg-white p-6 rounded-lg shadow-lg w-80 md:w-96 flex-shrink-0">
+                                <div class="flex items-center mb-4">
+                                    <div class="bg-sky-100 text-sky-500 p-3 rounded-full"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l5.447 2.724A1 1 0 0021 16.382V5.618a1 1 0 00-.553-.894L15 2m-6 5l6-3m0 0l6 3m-6-3v10"></path></svg></div>
+                                    <h3 class="ml-4 text-lg font-bold text-slate-800">一张完整的成长地图</h3>
+                                </div>
+                                <p class="text-slate-600 text-sm">独创性地划分学习路径，无论你是零基础小白，还是希望突破瓶颈的从业者，都能找到为你量身定制的进阶之路。</p>
+                            </div>
+                            <div class="bg-white p-6 rounded-lg shadow-lg w-80 md:w-96 flex-shrink-0">
+                                <div class="flex items-center mb-4">
+                                    <div class="bg-sky-100 text-sky-500 p-3 rounded-full"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg></div>
+                                    <h3 class="ml-4 text-lg font-bold text-slate-800">一套标准化的作战流程</h3>
+                                </div>
+                                <p class="text-slate-600 text-sm">掌握从需求沟通到成果落地的七大核心阶段，这套“作战地图”将赋予你驾驭任何复杂研究项目的能力与信心。</p>
+                            </div>
+                            <div class="bg-white p-6 rounded-lg shadow-lg w-80 md:w-96 flex-shrink-0">
+                                <div class="flex items-center mb-4">
+                                    <div class="bg-sky-100 text-sky-500 p-3 rounded-full"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path></svg></div>
+                                    <h3 class="ml-4 text-lg font-bold text-slate-800">一个即学即用的方法工具箱</h3>
+                                </div>
+                                <p class="text-slate-600 text-sm">从经典到前沿，本书不仅讲解“如何做”，更通过20个真实的商业案例剖析“为何用”与“何时用”。</p>
+                            </div>
+                            <div class="bg-white p-6 rounded-lg shadow-lg w-80 md:w-96 flex-shrink-0">
+                                <div class="flex items-center mb-4">
+                                    <div class="bg-sky-100 text-sky-500 p-3 rounded-full"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg></div>
+                                    <h3 class="ml-4 text-lg font-bold text-slate-800">一套升级思维的大师心法</h3>
+                                </div>
+                                <p class="text-slate-600 text-sm">修炼15种强大分析模型，学会构建系统性的洞察力，让你的专业水平产生质的飞跃。</p>
+                            </div>
+                            <div class="bg-white p-6 rounded-lg shadow-lg w-80 md:w-96 flex-shrink-0">
+                                <div class="flex items-center mb-4">
+                                    <div class="bg-sky-100 text-sky-500 p-3 rounded-full"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg></div>
+                                    <h3 class="ml-4 text-lg font-bold text-slate-800">一份贴心的求职与成长指南</h3>
+                                </div>
+                                <p class="text-slate-600 text-sm">从简历、面试到胜任工作、持续成长，助你叩开行业大门，并在这条道路上行稳致远。</p>
+                            </div>
+                            <div class="bg-white p-6 rounded-lg shadow-lg w-80 md:w-96 flex-shrink-0">
+                                <div class="flex items-center mb-4">
+                                    <div class="bg-sky-100 text-sky-500 p-3 rounded-full"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2h10a2 2 0 002-2v-1a2 2 0 012-2h1.945M7.8 17.2a.5.5 0 00.7.7l3-3a.5.5 0 000-.7l-3-3a.5.5 0 00-.7.7l1.15 1.15H4a.5.5 0 000 1h5.95l-1.15 1.15z"></path></svg></div>
+                                    <h3 class="ml-4 text-lg font-bold text-slate-800">一扇看见未来的前沿瞭望塔</h3>
+                                </div>
+                                <p class="text-slate-600 text-sm">探索AI时代新范式、VOC应用及“洞察出海”的全球化视野，让你始终走在时代前列。</p>
+                            </div>
+                        </div>
+                        <div class="flex-shrink-0 flex space-x-8 pr-8" aria-hidden="true">
+                             <div class="bg-white p-6 rounded-lg shadow-lg w-80 md:w-96 flex-shrink-0">
+                                <div class="flex items-center mb-4">
+                                    <div class="bg-sky-100 text-sky-500 p-3 rounded-full"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l5.447 2.724A1 1 0 0021 16.382V5.618a1 1 0 00-.553-.894L15 2m-6 5l6-3m0 0l6 3m-6-3v10"></path></svg></div>
+                                    <h3 class="ml-4 text-lg font-bold text-slate-800">一张完整的成长地图</h3>
+                                </div>
+                                <p class="text-slate-600 text-sm">独创性地划分学习路径，无论你是零基础小白，还是希望突破瓶颈的从业者，都能找到为你量身定制的进阶之路。</p>
+                            </div>
+                            <div class="bg-white p-6 rounded-lg shadow-lg w-80 md:w-96 flex-shrink-0">
+                                <div class="flex items-center mb-4">
+                                    <div class="bg-sky-100 text-sky-500 p-3 rounded-full"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg></div>
+                                    <h3 class="ml-4 text-lg font-bold text-slate-800">一套标准化的作战流程</h3>
+                                </div>
+                                <p class="text-slate-600 text-sm">掌握从需求沟通到成果落地的七大核心阶段，这套“作战地图”将赋予你驾驭任何复杂研究项目的能力与信心。</p>
+                            </div>
+                            <div class="bg-white p-6 rounded-lg shadow-lg w-80 md:w-96 flex-shrink-0">
+                                <div class="flex items-center mb-4">
+                                    <div class="bg-sky-100 text-sky-500 p-3 rounded-full"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path></svg></div>
+                                    <h3 class="ml-4 text-lg font-bold text-slate-800">一个即学即用的方法工具箱</h3>
+                                </div>
+                                <p class="text-slate-600 text-sm">从经典到前沿，本书不仅讲解“如何做”，更通过20个真实的商业案例剖析“为何用”与“何时用”。</p>
+                            </div>
+                            <div class="bg-white p-6 rounded-lg shadow-lg w-80 md:w-96 flex-shrink-0">
+                                <div class="flex items-center mb-4">
+                                    <div class="bg-sky-100 text-sky-500 p-3 rounded-full"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg></div>
+                                    <h3 class="ml-4 text-lg font-bold text-slate-800">一套升级思维的大师心法</h3>
+                                </div>
+                                <p class="text-slate-600 text-sm">修炼15种强大分析模型，学会构建系统性的洞察力，让你的专业水平产生质的飞跃。</p>
+                            </div>
+                            <div class="bg-white p-6 rounded-lg shadow-lg w-80 md:w-96 flex-shrink-0">
+                                <div class="flex items-center mb-4">
+                                    <div class="bg-sky-100 text-sky-500 p-3 rounded-full"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg></div>
+                                    <h3 class="ml-4 text-lg font-bold text-slate-800">一份贴心的求职与成长指南</h3>
+                                </div>
+                                <p class="text-slate-600 text-sm">从简历、面试到胜任工作、持续成长，助你叩开行业大门，并在这条道路上行稳致远。</p>
+                            </div>
+                            <div class="bg-white p-6 rounded-lg shadow-lg w-80 md:w-96 flex-shrink-0">
+                                <div class="flex items-center mb-4">
+                                    <div class="bg-sky-100 text-sky-500 p-3 rounded-full"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2h10a2 2 0 002-2v-1a2 2 0 012-2h1.945M7.8 17.2a.5.5 0 00.7.7l3-3a.5.5 0 000-.7l-3-3a.5.5 0 00-.7.7l1.15 1.15H4a.5.5 0 000 1h5.95l-1.15 1.15z"></path></svg></div>
+                                    <h3 class="ml-4 text-lg font-bold text-slate-800">一扇看见未来的前沿瞭望塔</h3>
+                                </div>
+                                <p class="text-slate-600 text-sm">探索AI时代新范式、VOC应用及“洞察出海”的全球化视野，让你始终走在时代前列。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- 读者好评区域 (Horizontal Scroll) -->
+        <section id="testimonials" class="py-24 bg-slate-50 overflow-hidden">
+            <div class="container mx-auto">
+                <h2 class="section-title">读者好评推荐</h2>
+                <p class="section-subtitle px-6">来自不同行业读者的真实声音，共同见证这本书的价值。</p>
+                <div class="scroll-container">
+                    <div class="flex animate-scroll-x hover:[animation-play-state:paused]">
+                        <div class="flex-shrink-0 flex space-x-8 pr-8">
+                            <div class="bg-white p-6 rounded-lg shadow-lg w-80 md:w-96 flex-shrink-0">
+                                <div class="flex items-center mb-4">
+                                    <div class="flex"><svg class="w-4 h-4 text-amber-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg class="w-4 h-4 text-amber-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg class="w-4 h-4 text-amber-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg class="w-4 h-4 text-amber-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg class="w-4 h-4 text-amber-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg></div>
+                                    <span class="ml-auto text-xs font-medium text-sky-600 bg-sky-100 px-2 py-1 rounded-full">认证读者</span>
+                                </div>
+                                <p class="text-slate-600 italic">""这绝对是我读过的最接地气的用研入门书！作者没有堆砌理论，而是用大量真实案例把复杂的模型讲得明明白白。特别是KANO和JTBD模型，看完后我对产品需求优先级的判断清晰多了。""</p>
+                                <div class="flex items-center mt-4">
+                                    <img src="https://placehold.co/40x40/60a5fa/FFFFFF?text=P" alt="Avatar" class="w-10 h-10 rounded-full">
+                                    <div class="ml-4">
+                                        <p class="font-bold text-slate-800">李静</p>
+                                        <p class="text-sm text-slate-500">某互联网大厂 产品经理</p>
+                                    </div>
+                                </div>
+                            </div>
+                           <div class="bg-white p-6 rounded-lg shadow-lg w-80 md:w-96 flex-shrink-0">
+                                <div class="flex items-center mb-4">
+                                    <div class="flex"><svg class="w-4 h-4 text-amber-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg class="w-4 h-4 text-amber-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg class="w-4 h-4 text-amber-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg class="w-4 h-4 text-amber-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg class="w-4 h-4 text-amber-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg></div>
+                                    <span class="ml-auto text-xs font-medium text-sky-600 bg-sky-100 px-2 py-1 rounded-full">认证读者</span>
+                                </div>
+                                <p class="text-slate-600 italic">""对于设计师来说，这本书最大的价值是教会了我们如何‘用研思维’去沟通。以前总觉得研究报告离设计很远，但书里的‘用户旅程图’和‘服务设计蓝图’章节，让我学会了如何将洞察转化为可视化的、可行动的设计方案。""</p>
+                                <div class="flex items-center mt-4">
+                                    <img src="https://placehold.co/40x40/f87171/FFFFFF?text=D" alt="Avatar" class="w-10 h-10 rounded-full">
+                                    <div class="ml-4">
+                                        <p class="font-bold text-slate-800">陈浩</p>
+                                        <p class="text-sm text-slate-500">UX设计师</p>
+                                    </div>
+                                </div>
+                            </div>
+                           <div class="bg-white p-6 rounded-lg shadow-lg w-80 md:w-96 flex-shrink-0">
+                                <div class="flex items-center mb-4">
+                                    <div class="flex"><svg class="w-4 h-4 text-amber-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg class="w-4 h-4 text-amber-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg class="w-4 h-4 text-amber-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg class="w-4 h-4 text-amber-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg class="w-4 h-4 text-amber-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg></div>
+                                    <span class="ml-auto text-xs font-medium text-sky-600 bg-sky-100 px-2 py-1 rounded-full">认证读者</span>
+                                </div>
+                                <p class="text-slate-600 italic">""作为一名准备转行的心理学学生，这本书简直是我的‘救命稻草’！‘成长篇’里的求职指南非常实在，让我对自己空有理论的简历和作品集有了清晰的改造方向。现在已经拿到了心仪的Offer！""</p>
+                                <div class="flex items-center mt-4">
+                                    <img src="https://placehold.co/40x40/34d399/FFFFFF?text=S" alt="Avatar" class="w-10 h-10 rounded-full">
+                                    <div class="ml-4">
+                                        <p class="font-bold text-slate-800">王雨薇</p>
+                                        <p class="text-sm text-slate-500">应届毕业生</p>
+                                    </div>
+                                </div>
+                            </div>
+                           <div class="bg-white p-6 rounded-lg shadow-lg w-80 md:w-96 flex-shrink-0">
+                                <div class="flex items-center mb-4">
+                                    <div class="flex"><svg class="w-4 h-4 text-amber-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg class="w-4 h-4 text-amber-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg class="w-4 h-4 text-amber-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg class="w-4 h-4 text-amber-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg class="w-4 h-4 text-amber-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg></div>
+                                    <span class="ml-auto text-xs font-medium text-sky-600 bg-sky-100 px-2 py-1 rounded-full">认证读者</span>
+                                </div>
+                                <p class="text-slate-600 italic">""创业公司资源有限，不可能像大厂一样做重投入的研究。书里关于‘低成本研究方法’的章节对我启发巨大，特别是‘走廊测试’和‘利用公开数据’的技巧，让我们团队也能快速验证想法，少走弯路。""</p>
+                                <div class="flex items-center mt-4">
+                                    <img src="https://placehold.co/40x40/fbbf24/FFFFFF?text=F" alt="Avatar" class="w-10 h-10 rounded-full">
+                                    <div class="ml-4">
+                                        <p class="font-bold text-slate-800">张伟</p>
+                                        <p class="text-sm text-slate-500">初创公司创始人</p>
+                                    </div>
+                                </div>
+                            </div>
+                           <div class="bg-white p-6 rounded-lg shadow-lg w-80 md:w-96 flex-shrink-0">
+                                <div class="flex items-center mb-4">
+                                    <div class="flex"><svg class="w-4 h-4 text-amber-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg class="w-4 h-4 text-amber-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg class="w-4 h-4 text-amber-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg class="w-4 h-4 text-amber-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg class="w-4 h-4 text-amber-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg></div>
+                                    <span class="ml-auto text-xs font-medium text-sky-600 bg-sky-100 px-2 py-1 rounded-full">认证读者</span>
+                                </div>
+                                <p class="text-slate-600 italic">""AARRR模型、RFM模型…这些以前只在文章里看过的名词，这本书用非常清晰的案例讲透了。现在我不仅能和产品经理‘同频对话’，还能把用户洞察应用到我们的营销活动策划中，效果显著。""</p>
+                                <div class="flex items-center mt-4">
+                                    <img src="https://placehold.co/40x40/a78bfa/FFFFFF?text=M" alt="Avatar" class="w-10 h-10 rounded-full">
+                                    <div class="ml-4">
+                                        <p class="font-bold text-slate-800">刘敏</p>
+                                        <p class="text-sm text-slate-500">市场运营专家</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 书籍目录区域 -->
+        <section id="toc" class="py-24 bg-white">
+            <div class="container mx-auto px-6">
+                <h2 class="section-title">书籍目录</h2>
+                <p class="section-subtitle">一本书，带你系统构建用户研究全景知识体系。</p>
+                <div id="toc-container" class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 text-slate-600">
+                    <div class="bg-slate-50 p-6 rounded-xl shadow-md transform hover:scale-105 transition-transform duration-300">
+                        <p class="text-sm font-bold text-sky-600">第一篇</p>
+                        <h3 class="text-2xl font-bold text-slate-800 mb-4">入门篇</h3>
+                        <ul class="space-y-2 text-sm">
+                            <li class="flex items-start"><svg class="w-4 h-4 mr-2 mt-1 text-sky-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg><span>1.1 用户研究是什么</span></li>
+                            <li class="flex items-start"><svg class="w-4 h-4 mr-2 mt-1 text-sky-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg><span>1.2 用户研究的基本方法</span></li>
+                        </ul>
+                    </div>
+                    <div class="bg-slate-50 p-6 rounded-xl shadow-md transform hover:scale-105 transition-transform duration-300">
+                        <p class="text-sm font-bold text-sky-600">第二篇</p>
+                        <h3 class="text-2xl font-bold text-slate-800 mb-4">进阶篇</h3>
+                        <ul class="space-y-2 text-sm">
+                            <li class="flex items-start"><svg class="w-4 h-4 mr-2 mt-1 text-sky-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg><span>2.1 需求阶段</span></li>
+                            <li class="flex items-start"><svg class="w-4 h-4 mr-2 mt-1 text-sky-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg><span>2.2 设计时间</span></li>
+                            <li class="flex items-start"><svg class="w-4 h-4 mr-2 mt-1 text-sky-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg><span>2.3 预测试阶段</span></li>
+                            <li class="flex items-start"><svg class="w-4 h-4 mr-2 mt-1 text-sky-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg><span>2.4 运行时间</span></li>
+                            <li class="flex items-start"><svg class="w-4 h-4 mr-2 mt-1 text-sky-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg><span>2.5 分析阶段</span></li>
+                            <li class="flex items-start"><svg class="w-4 h-4 mr-2 mt-1 text-sky-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg><span>2.6 输出阶段</span></li>
+                            <li class="flex items-start"><svg class="w-4 h-4 mr-2 mt-1 text-sky-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg><span>2.7 跟进阶段</span></li>
+                        </ul>
+                    </div>
+                    <div class="bg-slate-50 p-6 rounded-xl shadow-md transform hover:scale-105 transition-transform duration-300">
+                        <p class="text-sm font-bold text-sky-600">第三篇</p>
+                        <h3 class="text-2xl font-bold text-slate-800 mb-4">精通篇</h3>
+                        <ul class="space-y-2 text-sm">
+                            <li class="flex items-start"><svg class="w-4 h-4 mr-2 mt-1 text-sky-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg><span>3.1 研究方法应用</span></li>
+                            <li class="flex items-start"><svg class="w-4 h-4 mr-2 mt-1 text-sky-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg><span>3.2 全周期实践</span></li>
+                            <li class="flex items-start"><svg class="w-4 h-4 mr-2 mt-1 text-sky-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg><span>3.3 分析模型</span></li>
+                            <li class="flex items-start"><svg class="w-4 h-4 mr-2 mt-1 text-sky-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg><span>3.4 体验度量</span></li>
+                            <li class="flex items-start"><svg class="w-4 h-4 mr-2 mt-1 text-sky-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg><span>3.5 实战案例</span></li>
+                            <li class="flex items-start"><svg class="w-4 h-4 mr-2 mt-1 text-sky-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg><span>3.6 20种案例分享</span></li>
+                        </ul>
+                    </div>
+                    <div class="bg-slate-50 p-6 rounded-xl shadow-md transform hover:scale-105 transition-transform duration-300">
+                        <p class="text-sm font-bold text-sky-600">第四篇</p>
+                        <h3 class="text-2xl font-bold text-slate-800 mb-4">成长篇</h3>
+                        <ul class="space-y-2 text-sm">
+                            <li class="flex items-start"><svg class="w-4 h-4 mr-2 mt-1 text-sky-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg><span>4.1 如何入行</span></li>
+                            <li class="flex items-start"><svg class="w-4 h-4 mr-2 mt-1 text-sky-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg><span>4.2 胜任工作</span></li>
+                            <li class="flex items-start"><svg class="w-4 h-4 mr-2 mt-1 text-sky-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg><span>4.3 成为专家</span></li>
+                            <li class="flex items-start"><svg class="w-4 h-4 mr-2 mt-1 text-sky-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg><span>4.4 常见问答</span></li>
+                        </ul>
+                    </div>
+                    <div class="bg-slate-50 p-6 rounded-xl shadow-md transform hover:scale-105 transition-transform duration-300">
+                        <p class="text-sm font-bold text-sky-600">第五篇</p>
+                        <h3 class="text-2xl font-bold text-slate-800 mb-4">专题篇</h3>
+                        <ul class="space-y-2 text-sm">
+                            <li class="flex items-start"><svg class="w-4 h-4 mr-2 mt-1 text-sky-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg><span>5.1 AI时代下的用研</span></li>
+                            <li class="flex items-start"><svg class="w-4 h-4 mr-2 mt-1 text-sky-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg><span>5.2 VOC用户之声</span></li>
+                            <li class="flex items-start"><svg class="w-4 h-4 mr-2 mt-1 text-sky-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg><span>5.3 洞察出海</span></li>
+                        </ul>
+                    </div>
+                    <div class="bg-slate-50 p-6 rounded-xl shadow-md transform hover:scale-105 transition-transform duration-300">
+                        <p class="text-sm font-bold text-sky-600">附录</p>
+                        <h3 class="text-2xl font-bold text-slate-800 mb-4">工具箱</h3>
+                        <ul class="space-y-2 text-sm">
+                            <li class="flex items-start"><svg class="w-4 h-4 mr-2 mt-1 text-sky-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg><span>A: 术语表</span></li>
+                            <li class="flex items-start"><svg class="w-4 h-4 mr-2 mt-1 text-sky-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg><span>B: 工具清单</span></li>
+                            <li class="flex items-start"><svg class="w-4 h-4 mr-2 mt-1 text-sky-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg><span>C: 公司名录</span></li>
+                            <li class="flex items-start"><svg class="w-4 h-4 mr-2 mt-1 text-sky-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg><span>D: 隐私法规</span></li>
+                            <li class="flex items-start"><svg class="w-4 h-4 mr-2 mt-1 text-sky-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg><span>E: 书单</span></li>
+                            <li class="flex items-start"><svg class="w-4 h-4 mr-2 mt-1 text-sky-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg><span>F: 数字资源</span></li>
+                            <li class="flex items-start"><svg class="w-4 h-4 mr-2 mt-1 text-sky-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg><span>G: 小区活动</span></li>
+                            <li class="flex items-start"><svg class="w-4 h-4 mr-2 mt-1 text-sky-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg><span>H: 细分模型</span></li>
+                            <li class="flex items-start"><svg class="w-4 h-4 mr-2 mt-1 text-sky-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg><span>I: 范本包</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 读者服务区域 -->
+        <section id="author-service" class="py-24 bg-sky-600 text-white">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-black text-center mb-4">不止于书：专属读者服务</h2>
+                <p class="text-lg text-sky-200 text-center max-w-3xl mx-auto mb-16">
+                    购买本书，您获得的不仅是知识，更是一份长期的陪伴与支持。
+                </p>
+                <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-stretch">
+                    <!-- Left Card: Resources -->
+                    <div class="bg-white/10 backdrop-blur-sm rounded-xl p-8 flex flex-col justify-between transform hover:-translate-y-2 transition-transform duration-300">
+                        <div>
+                           <h3 class="text-2xl font-bold text-white mb-4">用户研究模板包下载</h3>
+                           <p class="text-sky-100 mb-6">书中附录的全套研究范本包，包括计划书、问卷、画像等模板，助您即刻上手实践。</p>
+                        </div>
+                        <a href="https://github.com/jiangchangsheng2022/book.jiangchangsheng.com/raw/main/%E9%99%84%E5%BD%95I%EF%BC%9A%E7%94%A8%E6%88%B7%E7%A0%94%E7%A9%B6%E6%A8%A1%E6%9D%BF%E5%8C%85%EF%BC%88%E9%99%84%E5%AE%8C%E6%95%B4%E7%89%88%E6%96%87%E4%BB%B6%E4%B8%8B%E8%BD%BD%EF%BC%89.zip" download class="mt-4 inline-flex items-center justify-center space-x-2 bg-white hover:bg-slate-200 text-sky-600 font-bold py-3 px-8 rounded-full transition-colors shadow-lg">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
+                            <span>立即下载</span>
+                        </a>
+                    </div>
+                    <!-- Right Card: QR Code -->
+                     <div class="bg-white rounded-xl p-6 flex flex-col justify-center items-center text-center transform hover:-translate-y-2 transition-transform duration-300 text-slate-800 shadow-2xl">
+                        <img src="https://raw.githubusercontent.com/jiangchangsheng2022/book.jiangchangsheng.com/main/0dc4e6cb5499abfe29c97077045a6d00.jpg" alt="作者主页二维码" class="w-full max-w-[280px] h-auto rounded-lg shadow-md mb-4">
+                        <h3 class="text-xl font-bold text-slate-800">与我交流 & 获取完整版</h3>
+                        <p class="text-slate-600 mt-2 text-sm">扫描二维码关注作者主页，获取勘误、交流答疑，或购买完整版书籍。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 关于作者区域 -->
+        <section id="author" class="py-24 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="max-w-4xl mx-auto">
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-12 items-center">
+                        <div class="md:col-span-1 text-center">
+                            <img src="https://raw.githubusercontent.com/jiangchangsheng2022/book.jiangchangsheng.com/main/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20251004162038_2_650.jpg" 
+                                 alt="作者照片" 
+                                 class="w-48 h-48 rounded-full mx-auto shadow-xl object-cover ring-4 ring-white ring-offset-4 ring-offset-slate-50">
+                        </div>
+                        <div class="md:col-span-2">
+                            <h2 class="text-3xl font-bold text-slate-800 mb-4">关于作者：蒋昌盛 (Kaysen Jiang)</h2>
+                            <p class="text-slate-600 leading-relaxed mb-4">
+                                资深用户研究专家，拥有多年的甲乙方复合行业经验。服务过保时捷、上汽通用、米其林、花西子等众多头部品牌，累计参与超过50个跨行业项目。
+                            </p>
+                            <p class="text-slate-600 leading-relaxed mb-6">
+                                精通用户研究全流程，在定性访谈、定量分析、高级模型应用及商业洞察方面拥有丰富的实战经验。
+                            </p>
+                             <div class="border-l-4 border-sky-500 pl-4 italic text-slate-700">
+                                <p class="font-semibold">作者寄语：</p>
+                                <p>"在一个人人都在谈‘以用户为中心’，但又常常离用户很远的时代，本书的立意是——回归根本。用户研究的核心，从来不是冰冷的学术理论或复杂的数据模型，而是一种温暖、真诚的特质——<strong class='text-sky-600'>理解</strong>。"</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 页脚区域 -->
+    <footer class="bg-slate-800 text-slate-400 py-8">
+        <div class="container mx-auto px-6 text-center">
+            <p>&copy; 2025 蒋昌盛 (Kaysen Jiang). All Rights Reserved.</p>
+        </div>
+    </footer>
+    
+    <script>
+        // All dynamic content and logic have been removed to ensure stability.
+        // The page is now pure static HTML and CSS.
+    </script>
+</body>
+</html>
+
